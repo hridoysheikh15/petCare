@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navber {
+    background-color: rgba(0, 60, 255, 0.699);
+    height: 100px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+}
+
+#logo {
+    height: 80px;
+    padding: 1%;
+}
+
+.menu {
+    text-align: right;
+    margin-top: 30px;
+    color: #fff;
+    width: 100%;
+}
+
+.menu a {
+    color: #fff;
+    padding: 1% 3%;
+    letter-spacing: 0.5px;
+    font-family: "poppins";
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+.menu a:hover {
+    background-color: #fff;
+    opacity: 0.5;
+    color: #000;
+    font-weight: bolder;
+}
+
+.menuRes {
+    display: none;
+}
+
+.midContent {
+    position: relative;
+    height: 800px;
+    background-image: linear-gradient(rgba(0, 59, 143, 0.6),
+            rgba(0, 59, 143, 0.6)),
+        url(../image/449049-PEVZRA-984.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.midTag {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tag1 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.tag2 {
+    opacity: 0.95;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Nunito";
+    text-align: center;
+    margin: 30px;
+}
+
+.tag3 {
+    display: initial;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 32px;
+    background-color: #edc315;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.tag3 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* our job  */
+
+.job {
+    position: relative;
+    background-color: #739de3;
+    height: 700px;
+    overflow: hidden;
+}
+
+.box1 {
+    height: 350px;
+    width: 300px;
+    background-color: #537fc1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    border-radius: 30px 300px 150px 20px / 20px 300px 70px 150px;
+    box-sizing: border-box;
+}
+
+.box2 {
+    height: 350px;
+    width: 500px;
+    background-color: #537fc1;
+    position: absolute;
+    clip-path: polygon(20px 100px,
+            100px 100%,
+            20% 100%,
+            0% 80%,
+            80px 120px,
+            30px 50px,
+            100px 20px,
+            0% 20%);
+    top: 0;
+    left: 90%;
+    z-index: 0;
+}
+
+.box3 {
+    height: 150px;
+    width: 150px;
+    background-color: #537fc1;
+    position: absolute;
+    clip-path: polygon(100px 200px, 30% 20%, 10px 20px);
+    top: 500px;
+    left: 90%;
+    z-index: 0;
+    border: 10px solid #ff0;
+}
+
+.ourJob {
+    padding: 50px;
+    z-index: 1;
+}
+
+.padX {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.jobList {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.care {
+    padding: 3rem;
+    font-family: "Poppins";
+}
+
+.shop {
+    padding: 3rem;
+    font-family: "Poppins";
+}
+
+.help {
+    padding: 3rem;
+    font-family: "Poppins";
+}
+
+.experience {
+    position: relative;
+    height: 900px;
+    text-align: center;
+    background-image: linear-gradient(rgba(168, 126, 0, 0.5),
+            rgba(168, 126, 0, 0.5)),
+        url(../image/448963-PEVZL1-726.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ourExperience {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.exp {
+    padding: 50px;
+    display: block;
+    border: 10px solid #ff0;
+    border-radius: 50%;
+}
+
+.product {
+    position: relative;
+    height: 705px;
+    text-align: center;
+    background-color: #739de3;
+}
+
+.ourProduct {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card {
+    border-radius: 30px;
+    padding: 40px;
+    background-color: #fff;
+    height: 300px;
+    color: #177caa;
+}
+
+.tagP {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 32px;
+    background-color: #edc315;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.tagP a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.aboutList{
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.about{
+    display: flex;
+    text-align: start;
+    width: 30%;
+    padding: 20px;
+}
+
+.box4{
+    height: 250px;
+    width: 300px;
+    background-color: #537fc1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    border-radius: 30px 300px 150px 20px / 20px 300px 70px 150px;
+    box-sizing: border-box;
+}
+
+.box5{
+    height: 300px;
+    width: 700px;
+    background-color: #537fc1;
+    position: absolute;
+    clip-path: polygon(20px 100px,
+            100px 100%,
+            20% 100%,
+            0% 80%,
+            80px 120px,
+            30px 50px,
+            100px 20px,
+            0% 20%);
+    top: 0;
+    left: 90%;
+    z-index: 0;
+}
+
+@media (max-width: 799px) {
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+        height: 450px;
+        background-color: rgba(90, 146, 230, 0.87);
+        position: fixed;
+        margin-top: 100px;
+    }
+
+    .menu a {
+        border-bottom: 2px solid #fff;
+        width: 0px;
+        display: block;
+        text-align: left;
+        padding: 3%;
+    }
+
+    .menu a:hover {
+        width: 100%;
+        transition: 0.5s all ease;
+    }
+
+    #logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menuRes {
+        display: flex;
+        width: 100%;
+    }
+
+    .menuRes img {
+        padding: 2%;
+    }
+}
