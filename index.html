@@ -13,7 +13,7 @@
     <header>
         <div class="navber">
             <div class="menuRes">
-                <img class="resMenu" onclick="menu()" height="60px" src="./image/menu.png" alt="Menu">
+                <img class="resMenu" id="resmenu" onclick="menu()" height="60px" src="./image/menu.png" alt="Menu">
                 <img id="logo" src="./image/logo.png" alt="Pet Care">
             </div>
             <div class="nav">
@@ -195,35 +195,50 @@
                 </p>
             </div>
             <div class="aboutList">
-                <div class="about">
-                    <img src="./image/pawprint.png" alt="">
-                    <div class="paragraph">
-                        <h2>lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sunt nemo quam, nam, amet soluta omnis eveniet at neque asperiores deserunt corrupti natus totam ullam dolorem nihil iusto reiciendis doloribus.</p>
+                <div class="row1">
+                    <div class="about">
+                        <img src="./image/pawprint.png" alt="">
+                        <div class="paragraph">
+                            <h2>lorem ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sunt nemo quam, nam, amet soluta omnis eveniet at neque asperiores deserunt corrupti natus totam ullam dolorem nihil iusto reiciendis doloribus.</p>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <img src="./image/pawprint.png" alt="">
+                        <div class="paragraph">
+                            <h2>lorem ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sunt nemo quam, nam, amet soluta omnis eveniet at neque asperiores deserunt corrupti natus totam ullam dolorem nihil iusto reiciendis doloribus.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="about">
-                    <img src="./image/pawprint.png" alt="">
-                    <div class="paragraph">
-                        <h2>lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sunt nemo quam, nam, amet soluta omnis eveniet at neque asperiores deserunt corrupti natus totam ullam dolorem nihil iusto reiciendis doloribus.</p>
+                <div class="row2">
+                    <div class="about">
+                        <img src="./image/pawprint.png" alt="">
+                        <div class="paragraph">
+                            <h2>lorem ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sunt nemo quam, nam, amet soluta omnis eveniet at neque asperiores deserunt corrupti natus totam ullam dolorem nihil iusto reiciendis doloribus.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="about">
-                    <img src="./image/pawprint.png" alt="">
-                    <div class="paragraph">
-                        <h2>lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sunt nemo quam, nam, amet soluta omnis eveniet at neque asperiores deserunt corrupti natus totam ullam dolorem nihil iusto reiciendis doloribus.</p>
-                    </div>
-                </div>
-                <div class="about">
-                    <img src="./image/pawprint.png" alt="">
-                    <div class="paragraph">
-                        <h2>lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sunt nemo quam, nam, amet soluta omnis eveniet at neque asperiores deserunt corrupti natus totam ullam dolorem nihil iusto reiciendis doloribus.</p>
+                    <div class="about">
+                        <img src="./image/pawprint.png" alt="">
+                        <div class="paragraph">
+                            <h2>lorem ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sunt nemo quam, nam, amet soluta omnis eveniet at neque asperiores deserunt corrupti natus totam ullam dolorem nihil iusto reiciendis doloribus.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="midContent2">
+        <div class="midTag2">
+            <p class="tag2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illo ullam sit quis veritatis laboriosam, ex harum soluta cupiditate deleniti possimus?
+            </p>
+            <p class="tag1">
+                Dr. Jenny
+            </p>
         </div>
     </div>
 
@@ -237,9 +252,11 @@
         function menu(){
             if(document.getElementsByClassName(".menu").display === "none"){
                 document.getElementsByClassName(".menu").display === "block";
+                document.getElementById("myImg").src = "hackanm.gif";
             }
             else{
-                document.getElementsByClassName(".menu").display === "none"
+                document.getElementsByClassName(".menu").display === "none";
+                document.getElementById("myImg").src = "hackanm.gif";
             }
         }
     </script>
